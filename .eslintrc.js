@@ -4,8 +4,8 @@ module.exports = {
     "rules": {
         "prettier/prettier": "error"
     },
-    parserOptions: {
-        souceType: module,
-        ecmaVersion: 13
+    "parserOptions": {
+        "souceType": module,
+        "ecmaVersion": 13
     }
 };
