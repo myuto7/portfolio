@@ -1,11 +1,10 @@
 import type { NextPage } from 'next'
+import { Contents } from './index'
 
 const Header: NextPage = () => {
     return (
         <>
-            <p>about</p>
-            <p>work</p>
-            <p>blog</p>
+            <Contents></Contents>
         </>
     )
 }
