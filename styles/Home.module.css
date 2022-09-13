@@ -134,3 +134,12 @@
   margin: 0 auto;
   width: 200px;
 }
+
+.text {
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  display: block;
+}
