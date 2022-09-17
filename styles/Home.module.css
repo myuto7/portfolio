@@ -127,3 +127,46 @@
     filter: invert(1);
   }
 }
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+.profile {
+  border-radius: 50%;
+  display: block;
+}
+
+.work {
+  position: relative;
+  width: 300px;
+  height: auto;
+  border: solid;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.blog {
+  position: relative;
+  width: 300px;
+  height: auto;
+  border: solid;
+  margin: 10px;
+  padding-left: 10px;
+}
