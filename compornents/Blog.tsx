@@ -1,12 +1,7 @@
-import { NextPage } from "next";
+import { BlogData } from "./dataset";
+import styles from "../styles/Home.module.css";
 
-type Props = {
-    title?: string;
-    image?: string;
-    url?: string;
-}
-
-const Blog: NextPage = (props: Props) => {
+const Blog: React.FC<BlogData> = (props) => {
     return (
         <div>
             <p>{props.title}</p>
