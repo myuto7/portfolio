@@ -5,3 +5,4 @@ export {default as About} from './About';
 export {default as Work} from './Work';
 export {default as WorkList} from './WorkList';
 export {default as Blog} from './Blog';
+export {default as BlogList} from './BlogList';

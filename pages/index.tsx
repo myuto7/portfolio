@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { About, Header, WorkList, dataset } from '../compornents'
+import { About, Header, WorkList, dataset, BlogList } from '../compornents'
 
 const Home: NextPage = () => {
   return (
@@ -74,6 +74,7 @@ const Home: NextPage = () => {
       <Header></Header>
       <About></About>
       <WorkList works={dataset.works}></WorkList>
+      <BlogList blogs={dataset.blogs}></BlogList>
     </>
   )
 }
