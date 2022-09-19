@@ -2,7 +2,7 @@
   "name": "portfolio_next",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED" ,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
