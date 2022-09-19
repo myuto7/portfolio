@@ -73,8 +73,6 @@ const Home: NextPage = () => {
       </Head>
       <Header></Header>
       <About></About>
-      {/* <WorkList works={dataset.works}></WorkList>
-      <BlogList blogs={dataset.blogs}></BlogList> */}
     </>
   )
 }
