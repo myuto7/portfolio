@@ -6,7 +6,7 @@ const Blog: React.FC<BlogData> = (props) => {
     return (
         <div className={styles.blog}>
             <p>{props.title}</p>
-            <Image src={props.image} alt="noimage" layout="fill" />
+            <Image src={props.image} alt="noimage" layout="fill" className={styles.image} />
             <a className={styles.link} href={props.url}></a>
         </div>
     )
