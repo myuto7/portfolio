@@ -4,10 +4,11 @@ import Image from "next/image";
 
 const Blog: React.FC<BlogData> = (props) => {
     return (
-        <div className={styles.blog}>
-            <Image src={props.image} alt="noimage" layout="fill" className={styles.blogImage} />
-            <p>{props.title}</p>
-            <a className={styles.link} href={props.url}></a>
+        <div className={styles.linkCard}>
+            <a className={styles.link} href={props.url}>
+                <Image src={props.image} alt="noimage" layout="responsive" width={640} height={336} objectFit="cover" className={styles.blogImage} />
+                <p className={styles.date}>{props.date}</p>
+            </a>
         </div>
     )
 }

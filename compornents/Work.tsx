@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 const Work: React.FC<WorkData> = (props) => {
     return (
-        <div className={styles.work}>
+        <div className={styles.linkCard}>
             <p>{props.title}</p>
             <p>{props.explain}</p>
             <a className={styles.link} href={props.url}></a>
