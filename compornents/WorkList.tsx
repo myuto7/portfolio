@@ -10,7 +10,7 @@ const WorkList: React.FC<Data> = (props) => {
     return (
         <div className={styles.cardList}>
             {props.works.map((value, index) => {
-                return <Work title={value.title} explain={value.explain} url={value.url} key={index.toString()} />
+                return <Work title={value.title} explain={value.explain} image={value.image} url={value.url} key={index.toString()} />
             })}
         </div>
     )
