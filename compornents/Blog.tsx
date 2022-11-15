@@ -6,7 +6,7 @@ const Blog: React.FC<BlogData> = (props) => {
     return (
         <div className={styles.linkCard}>
             <a className={styles.link} href={props.url}>
-                <Image src={props.image} alt="noimage" layout="responsive" width={640} height={336} objectFit="cover" className={styles.blogImage} />
+                <Image src={props.image} alt="noimage" layout="responsive" width={640} height={336} objectFit="cover" />
                 <p className={styles.date}>{props.date}</p>
             </a>
         </div>
