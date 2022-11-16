@@ -2,7 +2,7 @@
   "name": "portfolio_next",
   "version": "0.1.0",
   "private": true,
-  "license": "UNLICENSED" ,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,9 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-slide-routes": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "18.7.15",
