@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { dataset, Header, WorkList } from "../compornents";
+import { dataset, Header, WorkList, HeadData } from "../components";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
@@ -7,6 +7,7 @@ const WorkPage: NextPage = () => {
     return (
         <>
             {/* <Header></Header> */}
+            <HeadData></HeadData>
             <nav className={styles.tabNav}>
                 <ul className={styles.tabList}>
                     <li>
