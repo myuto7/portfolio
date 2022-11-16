@@ -6,7 +6,7 @@ import Link from "next/link";
 const Contents: NextPage = () => {
     return (
         <>
-            <div className={styles.contents}>
+            {/* <div className={styles.contents}>
                 <Link href="/">
                     <a>about</a>
                 </Link>
@@ -16,7 +16,7 @@ const Contents: NextPage = () => {
                 <Link href="/blog">
                     <a>blog</a>
                 </Link>
-            </div>
+            </div> */}
         </>
     )
 }
