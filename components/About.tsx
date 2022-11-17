@@ -30,7 +30,7 @@ const About: NextPage = () => {
                 <Image src={profile} className={styles.profile} width={200} height={200} />
                 <h1>Yuto Mizuno</h1>
                 <p>
-                    豊田高専に所属しながら趣味でwebの勉強をしています。<br />普段は運動したり、ゲームをしたりしています。
+                    学校で情報工学を学びながら趣味でwebの勉強をしており、フロントエンドとバックエンドに興味があります。<br/>普段は運動したり、ゲームをしたりしています。
                 </p>
             </div>
         </>
