@@ -223,7 +223,6 @@
   width: 90vw;
   text-align: center;
   font-size: 8px;
-  align-items: center;
 }
 
 .flexCenter {
@@ -235,11 +234,19 @@
 .footerBox {
   width: 90vw;
   border-top: 1px solid #eaeaea;
-  align-items: center;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.icons a {
+  margin: auto 0.25rem;
 }
