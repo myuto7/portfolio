@@ -4,7 +4,7 @@ import Head from "next/head";
 const HeadData: NextPage = () => {
     return (
         <Head>
-            <title>Yuto Mizuno's HP</title>
+            <title>Yuto Matsunaga's HP</title>
             <meta name="description" content="portfolio site" />
             <link rel="icon" href="/profile.png" />
         </Head>
