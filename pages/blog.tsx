@@ -1,11 +1,11 @@
 import { NextPage } from "next";
-import { dataset, Header, BlogList, HeadData } from "../components";
+import { dataset, Header, BlogList, HeadData, Footer } from "../components";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 const BlogPage: NextPage = () => {
     return (
-        <>
+        <div className={styles.wrapper}>
             {/* <Header></Header> */}
             <HeadData></HeadData>
             <nav className={styles.tabNav}>
@@ -28,7 +28,8 @@ const BlogPage: NextPage = () => {
                 </ul>
             </nav>
             <BlogList blogs={dataset.blogs} />
-        </>
+            <Footer />
+        </div>
     )
 }
 
