@@ -12,22 +12,6 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -233,4 +217,36 @@
 .profileStatement p {
   display: inline-block;
   text-align: left;
+}
+
+.footer {
+  width: 90vw;
+  text-align: center;
+  font-size: 8px;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.footerBox {
+  width: 90vw;
+  border-top: 1px solid #eaeaea;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.icons a {
+  margin: auto 0.25rem;
 }

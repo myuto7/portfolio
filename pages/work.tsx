@@ -1,11 +1,11 @@
 import { NextPage } from "next";
-import { dataset, Header, WorkList, HeadData } from "../components";
+import { dataset, Header, WorkList, HeadData, Footer } from "../components";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
 const WorkPage: NextPage = () => {
     return (
-        <>
+        <div className={styles.wrapper}>
             {/* <Header></Header> */}
             <HeadData></HeadData>
             <nav className={styles.tabNav}>
@@ -28,7 +28,8 @@ const WorkPage: NextPage = () => {
                 </ul>
             </nav>
             <WorkList works={dataset.works} />
-        </>
+            <Footer />
+        </div>
     )
 }
 
