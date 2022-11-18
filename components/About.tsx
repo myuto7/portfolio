@@ -28,9 +28,11 @@ const About: NextPage = () => {
             </nav>
             <div className={styles.centered}>
                 <Image src={profile} className={styles.profile} width={200} height={200} />
-                <h1>Yuto Mizuno</h1>
+                <h1>Yuto Matsunaga</h1>
+            </div>
+            <div className={styles.profileStatement}>
                 <p>
-                    学校で情報工学を学びながら趣味でwebの勉強をしており、フロントエンドとバックエンドに興味があります。<br/>普段は運動したり、ゲームをしたりしています。
+                    学校で情報工学を学びながら趣味でwebの勉強をしており、フロントエンドとバックエンドに興味があります。<br />普段は運動したり、ゲームをしたりしています。
                 </p>
             </div>
         </>

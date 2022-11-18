@@ -224,3 +224,13 @@
   display: flex;
   justify-content: center;
 }
+
+.profileStatement {
+  text-align: center;
+  margin: auto 5vw;
+}
+
+.profileStatement p {
+  display: inline-block;
+  text-align: left;
+}
