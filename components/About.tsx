@@ -3,8 +3,14 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import profile from "../public/profileImage.jpg";
 import Link from "next/link";
+import React from "react";
+import parse from "html-react-parser";
 
-const About: NextPage = () => {
+type Props = {
+    introduction: string
+}
+
+const About: React.FC<Props> = (props) => {
     return (
         <>
             <nav className={styles.tabNav}>
@@ -31,9 +37,7 @@ const About: NextPage = () => {
                 <h1>Yuto Matsunaga</h1>
             </div>
             <div className={styles.profileStatement}>
-                <p>
-                    学校で情報工学を学びながら趣味でwebの勉強をしており、フロントエンドとバックエンドに興味があります。<br />普段は運動したり、ゲームをしたりしています。
-                </p>
+                <p>{parse(props.introduction)}</p>
             </div>
         </>
     )

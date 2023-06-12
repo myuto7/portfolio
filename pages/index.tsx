@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { HeadData, About, Footer } from '../components'
+import { HeadData, About, Footer, dataset } from '../components'
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div className={styles.wrapper}>
       <HeadData></HeadData>
       {/* <Header></Header> */}
-      <About></About>
+      <About introduction={dataset.introduction}></About>
       <Footer />
     </div>
   )

@@ -1,4 +1,5 @@
 export type Data = {
+    introduction: string;
     works: WorkData[];
     blogs: BlogData[];
 };
@@ -17,6 +18,7 @@ export type BlogData = {
 };
 
 const dataset: Data = {
+    introduction: "駆け出しのwebエンジニアです。様々な分野を勉強してみたいと思っています。<br />普段は運動したり、ゲームをしたりしています。",
     works: [
         {
             title: "画像レイアウト",
